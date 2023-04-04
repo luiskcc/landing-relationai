@@ -11,7 +11,7 @@ function typeText() {
     i++;
     if (i > typingText.length) {
       clearInterval(typingInterval);
-      setTimeout(bindText, 1000);
+      setTimeout(bindText, 1000);   
     }
   }, 100);
 }
