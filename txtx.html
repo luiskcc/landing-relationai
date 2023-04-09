@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style type="text/css">
+        body,
+        div,
+        input {
+            margin: 2rem;
+        }
+    </style>
+   
+    <div>
+        <div id="typed-content"></div>
+    </div>
+    <script>
+        function setData() {
+            const txt = `Watch me as I get typed out before your very eyes using JavaScript's setInterval() function.`;
+            const outputDiv = document.getElementById('typed-content');
+            return [txt, outputDiv]
+        };
+        function typeText() {
+            const res = setData();
+            const txt = res[0];
+            const outputDiv = res[1];
+            let i = 0;
+            const timerId = setInterval(() => {
+                outputDiv.innerHTML += txt.charAt(i);
+                i++;
+                if (i === txt.length) {
+                    clearInterval(timerId);
+                }
+            }, 50);
+        }
+        typeText();
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+.typing-container,
+.typing-container-terms,
+.typing-container-privacy {
+width: 100vw;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#typing-text,
+#typing-text-terms,
+#typing-text-privacy {
+font-size: 2vw;
+color: #1f1e1e;
+overflow: hidden;
+animation: typing 50ms steps(60, end);
+animation-duration: 5000ms;
+animation-delay: 0ms;
+}
+
+@keyframes typing {
+from {
+width: 0
+}
+
+to {
+width: 100%
+}
+}
+
+
+
+
+
+
+// const typingText = "Hi, I'm Relation AI, your new Sales Development Representative. My main role is to help generate
+and qualify leads for your sales team. With my assistance, you can streamline your sales process and increase revenue.";
+// const typingContainer = document.querySelector(".typing-container");
+// const typingElement = document.querySelector("#typing-text");
+
+
+// function typeText() {
+// typingElement.textContent = "";
+// let i = 0;
+// const typingInterval = setInterval(function() {
+// typingElement.textContent += typingText.charAt(i);
+// i++;
+// if (i > typingText.length) {
+// clearInterval(typingInterval);
+// setTimeout(bindText, 1000);
+// }
+// }, 100);
+// }
+
+// function bindText() {
+// typingElement.style.borderRight = "none";
+// }
+
+// typeText();
+
+
+
+//check function CHATGPT
