@@ -85,9 +85,6 @@ list-style-type: none;
 }
 
 
-
-
-
 footer ul{
 list-style: none;
 text-decoration: none;
@@ -102,23 +99,6 @@ footer ul li .docs {
 padding: 0px 20px 0px 20px;
 }
 
-.links{
-display: flex;
-justify-content: flex-end;
-}
-
-.links ul {
-display: flex;
-justify-content: space-evenly;
-flex-direction: column;
-text-decoration: none;
-list-style: none;
-}
-
-.links ul img{
-width: 5vw;
-margin: 10px 20px;
-}
 
 
 .cc ul li h2 {
@@ -277,23 +257,6 @@ footer ul li .docs {
 padding: 0px 20px 0px 20px;
 }
 
-.links {
-display: flex;
-justify-content: flex-end;
-}
-
-.links ul {
-display: flex;
-justify-content: space-evenly;
-flex-direction: column;
-text-decoration: none;
-list-style: none;
-}
-
-.links ul img {
-width: 5vw;
-margin: 10px 20px;
-}
 
 
 .cc ul li h2 {
@@ -505,6 +468,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
 #typed-content {
 font-size: 4vw;
 color: #1f1e1e;
@@ -612,23 +576,7 @@ footer ul li .docs {
 padding: 0px 20px 0px 20px;
 }
 
-.links {
-display: flex;
-justify-content: flex-end;
-}
 
-.links ul {
-display: flex;
-justify-content: space-evenly;
-flex-direction: column;
-text-decoration: none;
-list-style: none;
-}
-
-.links ul img {
-width: 3vw;
-margin: 10px 20px;
-}
 
 
 .cc ul li h2 {
@@ -959,23 +907,7 @@ footer ul li .docs {
 padding: 0px 20px 0px 20px;
 }
 
-.links {
-display: flex;
-justify-content: flex-end;
-}
 
-.links ul {
-display: flex;
-justify-content: space-evenly;
-flex-direction: column;
-text-decoration: none;
-list-style: none;
-}
-
-.links ul img {
-width: 2vw;
-margin: 10px 20px;
-}
 
 
 .cc ul li h2 {
