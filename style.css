@@ -1,5 +1,688 @@
-/* Small screens (320px) */
 @media only screen and (min-width: 320px) {
+html {
+cursor: default;
+scroll-behavior: smooth;
+}
+
+body {
+background-color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
+h1 {
+color: rgb(60, 164, 255);
+}
+
+
+.button-box {
+display: flex;
+justify-content: center;
+}
+
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.btn {
+position: relative;
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 20px;
+font-size: 0.5em;
+cursor: pointer;
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50vw 0vw 80vw;
+}
+
+small{
+padding: 5vw 10vw;
+/* font-size: 4vw; */
+color: rgb(93, 177, 251);
+}
+
+label {
+margin-bottom: 2vh;
+font-weight: bold;
+}
+
+input,
+textarea {
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 50%;
+box-sizing: border-box;
+}
+
+input[type="submit"] {
+background-color: #4CAF50;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #3e8e41;
+}
+
+nav ul {
+list-style-type: none;
+
+}
+
+
+
+
+
+footer ul{
+list-style: none;
+text-decoration: none;
+padding: 0;
+}
+
+footer ul li .cc {
+padding: 0px 20px;
+}
+
+footer ul li .docs {
+padding: 0px 20px 0px 20px;
+}
+
+.links{
+display: flex;
+justify-content: flex-end;
+}
+
+.links ul {
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+text-decoration: none;
+list-style: none;
+}
+
+.links ul img{
+width: 5vw;
+margin: 10px 20px;
+}
+
+
+.cc ul li h2 {
+color: rgb(60, 164, 255);
+font-size: 1.8em;
+margin: 0;
+
+}
+
+.cc ul{
+display: flex;
+flex-direction: column-reverse;
+}
+
+.cc ul a, .cc ul p {
+text-decoration: none;
+color: #1f1e1e;
+margin: 0;
+}
+
+
+
+.docs ul{
+display: flex;
+justify-content: space-between;
+margin: 0
+}
+
+.docs ul a{
+text-decoration: none;
+color: #1f1e1e;
+margin: 0;
+font-size: 0.5em;
+
+}
+
+
+
+.typing-container-terms,
+    .typing-container-privacy,
+    .typing-container {
+width: 90%;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#typed-content {
+font-size: 6vw;
+color: #1f1e1e;
+}
+
+}
+
+@media only screen and (min-width: 390px) and (max-width: 480px) {
+
+html {
+cursor: default;
+scroll-behavior: smooth;
+}
+
+body {
+background-color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
+
+h1 {
+color: rgb(60, 164, 255);
+}
+
+
+.button-box {
+display: flex;
+justify-content: center;
+}
+
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.btn {
+position: relative;
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 20px;
+font-size: 0.8em;
+cursor: pointer;
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50vw 0vw 80vw;
+}
+
+small {
+padding: 5vw 10vw;
+/* font-size: 4vw; */
+color: rgb(93, 177, 251);
+}
+
+label {
+margin-bottom: 2vh;
+font-weight: bold;
+}
+
+input,
+textarea {
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 50%;
+box-sizing: border-box;
+}
+
+input[type="submit"] {
+background-color: #4CAF50;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #3e8e41;
+}
+
+nav ul {
+list-style-type: none;
+
+}
+
+footer ul {
+list-style: none;
+text-decoration: none;
+padding: 0;
+}
+
+footer ul li .cc {
+padding: 0px 20px;
+}
+
+footer ul li .docs {
+padding: 0px 20px 0px 20px;
+}
+
+.links {
+display: flex;
+justify-content: flex-end;
+}
+
+.links ul {
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+text-decoration: none;
+list-style: none;
+}
+
+.links ul img {
+width: 5vw;
+margin: 10px 20px;
+}
+
+
+.cc ul li h2 {
+color: rgb(60, 164, 255);
+font-size: 1.8em;
+margin: 0;
+
+}
+
+.cc ul {
+display: flex;
+flex-direction: column-reverse;
+}
+
+.cc ul a,
+.cc ul p {
+text-decoration: none;
+color: #1f1e1e;
+margin: 0;
+}
+
+.docs ul {
+display: flex;
+justify-content: space-between;
+margin: 0
+}
+.docs ul a {
+text-decoration: none;
+color: #1f1e1e;
+margin: 0;
+font-size: 0.5em;
+}
+
+.typing-container-terms,
+.typing-container-privacy,
+.typing-container {
+width: 90%;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#typed-content {
+font-size: 6vw;
+color: #1f1e1e;
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+html {
+cursor: default;
+scroll-behavior: smooth;
+}
+
+body {
+background-color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
+
+h1 {
+color: rgb(60, 164, 255);
+}
+
+
+.button-box {
+display: flex;
+justify-content: center;
+}
+
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.btn {
+position: relative;
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 20px;
+font-size: 0.8em;
+cursor: pointer;
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50vw 0vw 80vw;
+}
+
+small {
+padding: 5vw 10vw;
+/* font-size: 4vw; */
+color: rgb(93, 177, 251);
+}
+
+label {
+margin-bottom: 2vh;
+font-weight: bold;
+}
+
+input,
+textarea {
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 50%;
+box-sizing: border-box;
+}
+
+input[type="submit"] {
+background-color: #4CAF50;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #3e8e41;
+}
+
+nav ul {
+list-style-type: none;
+
+}
+footer ul {
+list-style: none;
+text-decoration: none;
+padding: 0;
+}
+
+footer ul li .cc {
+padding: 0px 20px;
+}
+
+footer ul li .docs {
+padding: 0px 20px 0px 20px;
+}
+
+.links {
+display: flex;
+justify-content: flex-end;
+}
+
+.links ul {
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+text-decoration: none;
+list-style: none;
+}
+
+.links ul img {
+width: 5vw;
+margin: 10px 20px;
+}
+
+
+.cc ul li h2 {
+color: rgb(60, 164, 255);
+font-size: 1.8em;
+margin: 0;
+
+}
+
+.cc ul {
+display: flex;
+flex-direction: column-reverse;
+}
+
+.cc ul a,
+.cc ul p {
+text-decoration: none;
+color: #1f1e1e;
+margin: 0;
+}
+.docs ul {
+display: flex;
+justify-content: space-between;
+margin: 0
+}
+.docs ul a {
+text-decoration: none;
+color: #1f1e1e;
+margin: 0;
+font-size: 0.5em;
+}
+
+
+
+.typing-container-terms,
+.typing-container-privacy,
+.typing-container {
+width: 90%;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#typed-content {
+font-size: 4vw;
+color: #1f1e1e;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+html {
+cursor: default;
+scroll-behavior: smooth;
+}
+
+body {
+background-color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
+
+h1 {
+color: rgb(60, 164, 255);
+}
+
+
+.button-box {
+display: flex;
+justify-content: center;
+}
+
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.btn {
+position: relative;
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 20px;
+font-size: 1em;
+cursor: pointer;
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 25vw 0vw 40vw;
+}
+
+small {
+padding: 0;
+color: rgb(93, 177, 251);
+}
+
+label {
+margin-bottom: 2vh;
+font-weight: bold;
+}
+
+input,
+textarea {
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 50%;
+box-sizing: border-box;
+}
+
+input[type="submit"] {
+background-color: #4CAF50;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #3e8e41;
+}
+
+nav ul {
+list-style-type: none;
+
+}
+
+footer ul {
+list-style: none;
+text-decoration: none;
+padding: 0;
+}
+
+footer ul li .cc {
+padding: 0px 20px;
+}
+
+footer ul li .docs {
+padding: 0px 20px 0px 20px;
+}
+
+.links {
+display: flex;
+justify-content: flex-end;
+}
+
+.links ul {
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+text-decoration: none;
+list-style: none;
+}
+
+.links ul img {
+width: 3vw;
+margin: 10px 20px;
+}
+
+
+.cc ul li h2 {
+color: rgb(60, 164, 255);
+font-size: 1.8em;
+margin: 0;
+
+}
+
+.cc ul {
+display: flex;
+flex-direction: column-reverse;
+}
+
+.cc ul a,
+.cc ul p {
+text-decoration: none;
+color: #1f1e1e;
+margin: 0;
+}
+
+
+.docs ul {
+display: flex;
+justify-content: space-between;
+margin: 0
+}
+
+.docs ul a {
+text-decoration: none;
+color: #1f1e1e;
+margin: 0;
+font-size: 0.5em;
+}
+.typing-container-terms,
+.typing-container-privacy,
+.typing-container {
+width: 90%;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#typed-content {
+font-size: 3vw;
+color: #1f1e1e;
+
+}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    
     html {
         cursor: default;
         scroll-behavior: smooth;
@@ -16,6 +699,7 @@
 
     h1 {
         color: rgb(60, 164, 255);
+        font-size: 2vw;
     }
 
 
@@ -37,21 +721,20 @@
         color: #fff;
         border: none;
         border-radius: 20px;
-        font-size: 16px;
+        font-size: 0.8em;
         cursor: pointer;
     }
 
     form {
         display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 50vw 0vw 80vw;
+        flex-direction: column;
+        align-items: center;
+        padding: 20vw 0vw 22vw;
     }
 
-    small{
-            padding: 5vw 10vw;
-                /* font-size: 4vw; */
-                color: rgb(93, 177, 251);
+    small {
+        color: rgb(93, 177, 251);
+        padding: 0;
     }
 
     label {
@@ -86,260 +769,79 @@
 
     }
 
+    footer ul {
+        list-style: none;
+        text-decoration: none;
+        padding: 0;
+    }
+
+    footer ul li .cc {
+        padding: 0px 20px;
+    }
+
+    footer ul li .docs {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .links {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .links ul {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .links ul img {
+        width: 2vw;
+        margin: 10px 20px;
+    }
 
 
-
-
-footer ul{
-    list-style: none;
-    text-decoration: none;
-    padding: 0;
-}
-
-footer ul li .cc {
-    padding: 0px 20px;
-}
-
-footer ul li .docs {
-    padding: 0px 20px 0px 20px;
-}
-
-.links{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.links ul {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    text-decoration: none;
-    list-style: none;
-}
-
-.links ul img{
-    width: 5vw;
-    margin: 10px 20px;
-}
-
-
-   .cc ul li h2 {
+    .cc ul li h2 {
         color: rgb(60, 164, 255);
         font-size: 1.8em;
         margin: 0;
 
     }
 
-    .cc ul{
+    .cc ul {
         display: flex;
         flex-direction: column-reverse;
     }
 
-   .cc ul a, .cc ul p {
-       text-decoration: none;
-       color: #1f1e1e;
-       margin: 0;
-   }
-
-
-
-   .docs ul{
-            display: flex;
-            justify-content: space-between;
-            margin: 0
-   }
-
-   .docs ul a{
-    text-decoration: none;
+    .cc ul a,
+    .cc ul p {
+        text-decoration: none;
         color: #1f1e1e;
         margin: 0;
-        font-size: 0.5em;
-        
-        }
-        
-        
-        
-                .typing-container,
-                .typing-container-terms,
-                .typing-container-privacy {
-            width: 90%;
-            height: 80vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        
-        #typed-content {
-            font-size: 4vw;
-            color: #1f1e1e;
-        
-        }
     }
 
 
-        
-        
-        
-        
-        
-        /* Small - medium screens (390px)
-                                                @media only screen and (min-width: 390px) {
-                                                    html {
-                                                        cursor: default;
-                                                        scroll-behavior: smooth;
-                                                    }
-                        
-                                                    body {
-                                                        background-color: rgb(255, 255, 255);
-                                                        font-family: "Open Sans", sans-serif;
-                                                        margin: 0;
-                                                        padding: 0;
-                                                    }
-                        
-                        
-                        
-                                                    h1 {
-                                                        color: rgb(60, 164, 255);
-                                                    }
-                        
-                        
-                                                    .button-box {
-                                                        display: flex;
-                                                        justify-content: center;
-                                                    }
-                        
-                                                    section {
-                                                        display: flex;
-                                                        flex-direction: column;
-                                                        align-items: center;
-                                                    }
-                        
-                                                    .btn {
-                                                        position: relative;
-                                                        padding: 10px 20px;
-                                                        background-color: #007bff;
-                                                        color: #fff;
-                                                        border: none;
-                                                        border-radius: 20px;
-                                                        font-size: 16px;
-                                                        cursor: pointer;
-                                                    }
-                        
-                                                    form {
-                                                        display: flex;
-                                                        flex-direction: column;
-                                                        align-items: center;
-                                                        padding: 70vw 0vw 80vw;
-                                                    }
-                        
-                                                    small {
-                                                        padding: 5vw 10vw;
-                                                        font-size: 4vw;
-                                                        color: rgb(93, 177, 251);
-                                                    }
-                        
-                                                    label {
-                                                        margin-bottom: 2vh;
-                                                        font-weight: bold;
-                                                    }
-                        
-                                                    input,
-                                                    textarea {
-                                                        padding: 10px;
-                                                        border: 1px solid #ccc;
-                                                        border-radius: 5px;
-                                                        width: 50%;
-                                                        box-sizing: border-box;
-                                                    }
-                        
-                                                    input[type="submit"] {
-                                                        background-color: #4CAF50;
-                                                        color: #fff;
-                                                        border: none;
-                                                        border-radius: 5px;
-                                                        padding: 10px 20px;
-                                                        cursor: pointer;
-                                                    }
-                        
-                                                    input[type="submit"]:hover {
-                                                        background-color: #3e8e41;
-                                                    }
-                        
-                                                    nav ul {
-                                                        list-style-type: none;
-                        
-                                                    }
-                        
-                        
-                        
-                        
-                        
-                                                    footer ul {
-                                                        list-style: none;
-                                                        text-decoration: none;
-                                                        padding: 0;
-                                                    }
-                        
-                                                    footer ul li .cc {
-                                                        padding: 0px 20px;
-                                                    }
-                        
-                                                    footer ul li .docs {
-                                                        padding: 0px 20px 0px 20px;
-                                                    }
-                        
-                                                    .links {
-                                                        display: flex;
-                                                        justify-content: flex-end;
-                                                    }
-                        
-                                                    .links ul {
-                                                        display: flex;
-                                                        justify-content: space-evenly;
-                                                        flex-direction: column;
-                                                        text-decoration: none;
-                                                        list-style: none;
-                                                    }
-                        
-                                                    .links ul img {
-                                                        width: 3vw;
-                                                        margin: 10px 20px;
-                                                    }
-                        
-                        
-                                                    .cc ul li h2 {
-                                                        color: rgb(60, 164, 255);
-                                                        font-size: 1.8em;
-                                                        margin: 0;
-                        
-                                                    }
-                        
-                                                    .cc ul {
-                                                        display: flex;
-                                                        flex-direction: column-reverse;
-                                .cc ul a,
-                                .cc ul p {
-                                        text-decoration: none;
-                                        color: #1f1e1e;
-                                        margin: 0;
-                                
-                                        .docs ul {
-                                            display: flex;
-                                            justify-content: space-between;
-                                                    margin: 0
-                        
-                                                                                                .docs ul a {
-                                                                                                        text-decoration: none;
-                                                                                                        color: #1f1e1e;
-                                                                                                        margin: 0;
-                                                                                                        font-size: 0.5em;
 
-                        
+    .docs ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 0
+    }
 
-    .typing-container,
+    .docs ul a {
+        text-decoration: none;
+        color: #1f1e1e;
+        margin: 0;
+        font-size: 0.5em;
+
+    }
+
+
+
     .typing-container-terms,
-    .typing-container-privacy {
+    .typing-container-privacy,
+    .typing-container {
         width: 90%;
         height: 80vh;
         display: flex;
@@ -347,220 +849,186 @@ footer ul li .docs {
         align-items: center;
     }
 
-    #typing-text,
-    #typing-text-terms,
-    #typing-text-privacy {
-        font-size: 7vw;
+
+    #typed-content {
+        font-size: 2vw;
         color: #1f1e1e;
-        overflow: hidden;
-        animation: typing 200ms steps(40, end);
-    }
-
-
-    @keyframes typing {
-        from {
-            width: 20%
-        }
-
-        to {
-            width: 20%
-        }
     }
 
 }
- */
- /* Medium screens (480px) 
-@media only screen and (min-width: 480px) {
 
-    html {
-            cursor: default;
-            scroll-behavior: smooth;
-        }
+@media screen and (min-width: 1200px) {
 
-        body {
-            background-color: rgb(255, 255, 255);
-            font-family: "Open Sans", sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-    
-    
-    
-        h1 {
-            color: rgb(60, 164, 255);
-        }
-    
-    
-        .button-box {
-            display: flex;
-            justify-content: center;
-        }
-    
-        section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        .btn {
-            position: relative;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 20px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-    
-        form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 40vw 0vw 30vw;
-        }
-    
-        small {
-            padding: 5vw 10vw;
-            font-size: 4vw;
-            color: rgb(93, 177, 251);
-        }
-    
-        label {
-            margin-bottom: 2vh;
-            font-weight: bold;
-        }
-    
-        input,
-        textarea {
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            width: 50%;
-            box-sizing: border-box;
-        }
-    
-        input[type="submit"] {
-            background-color: #4CAF50;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-    
-        input[type="submit"]:hover {
-            background-color: #3e8e41;
-        }
-    
-        nav ul {
-            list-style-type: none;
-    
-        }
-    
-    
-    
-    
-    
-        footer ul {
-            list-style: none;
-            text-decoration: none;
-            padding: 0;
-        }
-    
-        footer ul li .cc {
-            padding: 0px 20px;
-        }
-    
-        footer ul li .docs {
-            padding: 0px 20px 0px 20px;
-        }
-    
-        .links {
-            display: flex;
-            justify-content: flex-end;
-        }
-    
-        .links ul {
-            display: flex;
-            justify-content: space-evenly;
-            flex-direction: column;
-            text-decoration: none;
-            list-style: none;
-        }
-    
-        .links ul img {
-            margin: 10px 20px;
-        }
-    
-                                .cc ul li h2 {
-                                    color: rgb(60, 164, 255);
-                                    font-size: 1.8em;
-                                    margin: 0;
-                
-                                }
-                
-                                .cc ul {
-                                    display: flex;
-                                    flex-direction: column-reverse;
-                                }
-                
-                                .cc ul a,
-                                .cc ul p {
-                                    text-decoration: none;
-                                    color: #1f1e1e;
-                                    margin: 0;
-                                }
-                
-                
-                
-                                .docs ul {
-                                    display: flex;
-                                    justify-content: space-between;
-                                    margin: 0
-                                }
-                
-                                .docs ul a {
-                                    text-decoration: none;
-                                    color: #1f1e1e;
-                                    margin: 0;
-                                    font-size: 0.5em;
-                
-                                }
-                
-                
-                
-                
-                                .typing-container,
-                                .typing-container-terms,
-                                .typing-container-privacy {
-                                    width: 90%;
-                                    height: 80vh;
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-                                }
-        
-                                #typing-text,
-                                #typing-text-terms,
-                                #typing-text-privacy {
-                                    font-size: 2vw;
-                                    color: #1f1e1e;
-                                    overflow: hidden;
-                                    animation: typing 200ms steps(40, end);
-                                }
-                
-                
-                                @keyframes typing {
-                                    from {
-                                        width: 20%
-                                    }
-                
-                                    to {
-                                        width: 20%
-                                    }
-                                }
-                
-                                }
-                
-                                */
+html {
+cursor: default;
+scroll-behavior: smooth;
+}
+
+body {
+background-color: rgb(255, 255, 255);
+font-family: "Open Sans", sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
+
+h1 {
+color: rgb(60, 164, 255);
+font-size: 2vw;
+}
+
+
+.button-box {
+display: flex;
+justify-content: center;
+}
+
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.btn {
+position: relative;
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 20px;
+font-size: 0.8em;
+cursor: pointer;
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20vw 0vw 17vw;
+}
+
+small {
+color: rgb(93, 177, 251);
+padding: 0;
+}
+
+label {
+margin-bottom: 2vh;
+font-weight: bold;
+}
+
+input,
+textarea {
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 50%;
+box-sizing: border-box;
+}
+
+input[type="submit"] {
+background-color: #4CAF50;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #3e8e41;
+}
+
+nav ul {
+list-style-type: none;
+
+}
+
+footer ul {
+list-style: none;
+text-decoration: none;
+padding: 0;
+}
+
+footer ul li .cc {
+padding: 0px 20px;
+}
+
+footer ul li .docs {
+padding: 0px 20px 0px 20px;
+}
+
+.links {
+display: flex;
+justify-content: flex-end;
+}
+
+.links ul {
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+text-decoration: none;
+list-style: none;
+}
+
+.links ul img {
+width: 2vw;
+margin: 10px 20px;
+}
+
+
+.cc ul li h2 {
+color: rgb(60, 164, 255);
+font-size: 1.8em;
+margin: 0;
+
+}
+
+.cc ul {
+display: flex;
+flex-direction: column-reverse;
+}
+
+.cc ul a,
+.cc ul p {
+text-decoration: none;
+color: #1f1e1e;
+margin: 0;
+}
+
+
+
+.docs ul {
+display: flex;
+justify-content: space-between;
+margin: 0
+}
+
+.docs ul a {
+text-decoration: none;
+color: #1f1e1e;
+margin: 0;
+font-size: 0.5em;
+
+}
+
+
+
+.typing-container-terms,
+.typing-container-privacy,
+.typing-container {
+width: 90%;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#typed-content {
+font-size: 2vw;
+color: #1f1e1e;
+}
+
+}
