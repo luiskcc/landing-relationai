@@ -31,7 +31,7 @@ if (currentPara === splittedTxt.length) {
 clearInterval(timerId);
 }
 }
-},65);
+},50);
 
 
 
