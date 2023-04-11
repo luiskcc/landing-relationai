@@ -1,4 +1,26 @@
 @media only screen and (min-width: 320px) {
+
+@font-face {
+font-family: 'gothammedium';
+src: url('/fontsfami/GothamRoundedMedium_21022.ttf') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'gothamlight';
+src: url('/fontsfami/GothamRoundedLight_21020.ttf') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'gothambold';
+src: url('/fontsfami/GothamRoundedBold_21016.ttf') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
 html {
 cursor: default;
 scroll-behavior: smooth;
@@ -6,11 +28,10 @@ scroll-behavior: smooth;
 
 body {
 background-color: rgb(255, 255, 255);
-font-family: "Open Sans", sans-serif;
+font-family: 'gothamlight';
 margin: 0;
 padding: 0;
 }
-
 
 h1 {
 color: rgb(60, 164, 255);
@@ -156,6 +177,27 @@ color: #1f1e1e;
 
 @media only screen and (min-width: 390px) and (max-width: 480px) {
 
+@font-face {
+font-family: 'gothammedium';
+src: url('/fontsfami/GothamRoundedMedium_21022.ttf') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'gothamlight';
+src: url('/fontsfami/GothamRoundedLight_21020.ttf') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'gothambold';
+src: url('/fontsfami/GothamRoundedBold_21016.ttf') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
 html {
 cursor: default;
 scroll-behavior: smooth;
@@ -163,12 +205,10 @@ scroll-behavior: smooth;
 
 body {
 background-color: rgb(255, 255, 255);
-font-family: "Open Sans", sans-serif;
+font-family: 'gothamlight';
 margin: 0;
 padding: 0;
 }
-
-
 
 h1 {
 color: rgb(60, 164, 255);
@@ -308,6 +348,27 @@ color: #1f1e1e;
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
 
+@font-face {
+font-family: 'gothammedium';
+src: url('/fontsfami/GothamRoundedMedium_21022.ttf') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'gothamlight';
+src: url('/fontsfami/GothamRoundedLight_21020.ttf') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'gothambold';
+src: url('/fontsfami/GothamRoundedBold_21016.ttf') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
 html {
 cursor: default;
 scroll-behavior: smooth;
@@ -315,12 +376,10 @@ scroll-behavior: smooth;
 
 body {
 background-color: rgb(255, 255, 255);
-font-family: "Open Sans", sans-serif;
+font-family: 'gothamlight';
 margin: 0;
 padding: 0;
 }
-
-
 
 h1 {
 color: rgb(60, 164, 255);
@@ -476,6 +535,27 @@ color: #1f1e1e;
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
+@font-face {
+font-family: 'gothammedium';
+src: url('/fontsfami/GothamRoundedMedium_21022.ttf') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'gothamlight';
+src: url('/fontsfami/GothamRoundedLight_21020.ttf') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'gothambold';
+src: url('/fontsfami/GothamRoundedBold_21016.ttf') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
 html {
 cursor: default;
 scroll-behavior: smooth;
@@ -483,11 +563,10 @@ scroll-behavior: smooth;
 
 body {
 background-color: rgb(255, 255, 255);
-font-family: "Open Sans", sans-serif;
+font-family: 'gothamlight';
 margin: 0;
 padding: 0;
 }
-
 
 
 h1 {
@@ -629,19 +708,39 @@ color: #1f1e1e;
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-    
-    html {
-        cursor: default;
-        scroll-behavior: smooth;
-    }
 
-    body {
-        background-color: rgb(255, 255, 255);
-        font-family: "Open Sans", sans-serif;
-        margin: 0;
-        padding: 0;
-    }
+@font-face {
+font-family: 'gothammedium';
+src: url('/fontsfami/GothamRoundedMedium_21022.ttf') format('woff');
+font-weight: normal;
+font-style: normal;
+}
 
+@font-face {
+font-family: 'gothamlight';
+src: url('/fontsfami/GothamRoundedLight_21020.ttf') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'gothambold';
+src: url('/fontsfami/GothamRoundedBold_21016.ttf') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+html {
+cursor: default;
+scroll-behavior: smooth;
+}
+
+body {
+background-color: rgb(255, 255, 255);
+font-family: 'gothamlight';
+margin: 0;
+padding: 0;
+}
 
 
     h1 {
