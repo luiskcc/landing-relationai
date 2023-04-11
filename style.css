@@ -806,6 +806,27 @@ color: #1f1e1e;
 
 @media screen and (min-width: 1200px) {
 
+@font-face {
+    font-family: 'gothammedium';
+    src: url('/fontsfami/GothamRoundedMedium_21022.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothamlight';
+    src: url('/fontsfami/GothamRoundedLight_21020.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothambold';
+    src: url('/fontsfami/GothamRoundedBold_21016.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
 cursor: default;
 scroll-behavior: smooth;
@@ -813,7 +834,7 @@ scroll-behavior: smooth;
 
 body {
 background-color: rgb(255, 255, 255);
-font-family: "Open Sans", sans-serif;
+font-family: 'gothamlight';
 margin: 0;
 padding: 0;
 }
@@ -884,7 +905,7 @@ box-sizing: border-box;
 }
 
 input[type="submit"] {
-background-color: #4CAF50;
+background-color: #388af5;
 color: #fff;
 border: none;
 border-radius: 5px;
@@ -893,7 +914,7 @@ cursor: pointer;
 }
 
 input[type="submit"]:hover {
-background-color: #3e8e41;
+background-color: #ffc400;
 }
 
 nav ul {
