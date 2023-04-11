@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px) and (max-width: 389px) {
+@media only screen and (max-width: 389px) {
 
 @font-face {
 font-family: 'gothammedium';
@@ -64,7 +64,12 @@ form {
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 46.8vw 0vw 10vw;
+padding: 70vw 0vw 30vw;
+}
+
+form h1{
+font-size: 6vw;
+color: rgb(6, 6, 6)
 }
 
 small{
@@ -116,14 +121,15 @@ padding: 0;
 padding: 0px 20px;
 }
 
-footer ul li .docs {
-padding: 0px 20px 0px 20px;
-}
-
-
 .cc ul li h2 {
 color: rgb(60, 164, 255);
 font-size: 1em;
+margin: 0;
+}
+
+.cc ul li p {
+color: rgb(39, 40, 41);
+font-size: 0.6em;
 margin: 0;
 
 }
@@ -140,6 +146,9 @@ margin: 0;
 }
 
 
+footer ul li .docs {
+padding: 0px 20px 0px 20px;
+}
 
 .docs ul{
 display: flex;
@@ -152,14 +161,13 @@ text-decoration: none;
 color: #1f1e1e;
 margin: 0;
 font-size: 0.5em;
-
 }
 
 
 
 .typing-container-terms,
-    .typing-container-privacy,
-    .typing-container {
+.typing-container-privacy,
+.typing-container {
 width: 90%;
 height: 80vh;
 display: flex;
@@ -176,7 +184,7 @@ color: #1f1e1e;
 }
 
 @media only screen and (min-width: 390px) and (max-width: 480px) {
-
+    
 @font-face {
 font-family: 'gothammedium';
 src: url('/fontsfami/GothamRoundedMedium_21022.ttf') format('woff');
@@ -233,7 +241,7 @@ background-color: #007bff;
 color: #fff;
 border: none;
 border-radius: 20px;
-font-size: 0.8em;
+font-size: 0.5em;
 cursor: pointer;
 }
 
@@ -241,13 +249,18 @@ form {
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 25vw 0vw 40vw;
+padding: 70vw 0vw 30vw;
+}
+
+form h1 {
+font-size: 6vw;
+color: rgb(6, 6, 6)
 }
 
 small {
-padding: 5vw 10vw;
-/* font-size: 4vw; */
-color: rgb(93, 177, 251);
+padding: 2vw 10vw;
+font-size: 3vw;
+color: rgb(38, 37, 37);
 }
 
 label {
@@ -282,25 +295,26 @@ list-style-type: none;
 
 }
 
+
 footer ul {
 list-style: none;
 text-decoration: none;
 padding: 0;
 }
 
-footer ul li .cc {
+.cc {
 padding: 0px 20px;
 }
 
-footer ul li .docs {
-padding: 0px 20px 0px 20px;
-}
-
-
-
 .cc ul li h2 {
 color: rgb(60, 164, 255);
-font-size: 1.8em;
+font-size: 1em;
+margin: 0;
+}
+
+.cc ul li p {
+color: rgb(39, 40, 41);
+font-size: 0.6em;
 margin: 0;
 
 }
@@ -317,17 +331,25 @@ color: #1f1e1e;
 margin: 0;
 }
 
+
+footer ul li .docs {
+padding: 0px 20px 0px 20px;
+}
+
 .docs ul {
 display: flex;
 justify-content: space-between;
 margin: 0
 }
+
 .docs ul a {
 text-decoration: none;
 color: #1f1e1e;
 margin: 0;
 font-size: 0.5em;
 }
+
+
 
 .typing-container-terms,
 .typing-container-privacy,
@@ -344,10 +366,10 @@ align-items: center;
 font-size: 6vw;
 color: #1f1e1e;
 }
+
 }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-
 @font-face {
 font-family: 'gothammedium';
 src: url('/fontsfami/GothamRoundedMedium_21022.ttf') format('woff');
@@ -404,7 +426,7 @@ background-color: #007bff;
 color: #fff;
 border: none;
 border-radius: 20px;
-font-size: 0.8em;
+font-size: 0.5em;
 cursor: pointer;
 }
 
@@ -412,13 +434,18 @@ form {
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 50vw 0vw 80vw;
+padding: 70vw 0vw 30vw;
+}
+
+form h1 {
+font-size: 4vw;
+color: rgb(6, 6, 6)
 }
 
 small {
-padding: 5vw 10vw;
-/* font-size: 4vw; */
-color: rgb(93, 177, 251);
+padding: 2vw 10vw;
+font-size: 1vw;
+color: rgb(38, 37, 37);
 }
 
 label {
@@ -452,42 +479,27 @@ nav ul {
 list-style-type: none;
 
 }
+
+
 footer ul {
 list-style: none;
 text-decoration: none;
 padding: 0;
 }
 
-footer ul li .cc {
+.cc {
 padding: 0px 20px;
 }
 
-footer ul li .docs {
-padding: 0px 20px 0px 20px;
-}
-
-.links {
-display: flex;
-justify-content: flex-end;
-}
-
-.links ul {
-display: flex;
-justify-content: space-evenly;
-flex-direction: column;
-text-decoration: none;
-list-style: none;
-}
-
-.links ul img {
-width: 5vw;
-margin: 10px 20px;
-}
-
-
 .cc ul li h2 {
 color: rgb(60, 164, 255);
-font-size: 1.8em;
+font-size: 1em;
+margin: 0;
+}
+
+.cc ul li p {
+color: rgb(39, 40, 41);
+font-size: 0.6em;
 margin: 0;
 
 }
@@ -503,11 +515,18 @@ text-decoration: none;
 color: #1f1e1e;
 margin: 0;
 }
+
+
+footer ul li .docs {
+padding: 0px 20px 0px 20px;
+}
+
 .docs ul {
 display: flex;
 justify-content: space-between;
 margin: 0
 }
+
 .docs ul a {
 text-decoration: none;
 color: #1f1e1e;
@@ -527,14 +546,15 @@ justify-content: center;
 align-items: center;
 }
 
+
 #typed-content {
-font-size: 4vw;
+font-size: 3vw;
 color: #1f1e1e;
 }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-
 @font-face {
 font-family: 'gothammedium';
 src: url('/fontsfami/GothamRoundedMedium_21022.ttf') format('woff');
@@ -568,9 +588,9 @@ margin: 0;
 padding: 0;
 }
 
-
 h1 {
 color: rgb(60, 164, 255);
+font-size: 4vw;
 }
 
 
@@ -600,12 +620,18 @@ form {
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 25vw 0vw 40vw;
+padding: 20vw 0vw 10vw;
+}
+
+form h1 {
+font-size: 4vw;
+color: rgb(6, 6, 6)
 }
 
 small {
-padding: 0;
-color: rgb(93, 177, 251);
+padding: 1vw 10vw;
+font-size: 1vw;
+color: rgb(38, 37, 37);
 }
 
 label {
@@ -640,26 +666,26 @@ list-style-type: none;
 
 }
 
+
 footer ul {
 list-style: none;
 text-decoration: none;
 padding: 0;
 }
 
-footer ul li .cc {
+.cc {
 padding: 0px 20px;
 }
 
-footer ul li .docs {
-padding: 0px 20px 0px 20px;
-}
-
-
-
-
 .cc ul li h2 {
 color: rgb(60, 164, 255);
-font-size: 1.8em;
+font-size: 1em;
+margin: 0;
+}
+
+.cc ul li p {
+color: rgb(39, 40, 41);
+font-size: 0.6em;
 margin: 0;
 
 }
@@ -677,6 +703,10 @@ margin: 0;
 }
 
 
+footer ul li .docs {
+padding: 0px 20px 0px 20px;
+}
+
 .docs ul {
 display: flex;
 justify-content: space-between;
@@ -689,6 +719,9 @@ color: #1f1e1e;
 margin: 0;
 font-size: 0.5em;
 }
+
+
+
 .typing-container-terms,
 .typing-container-privacy,
 .typing-container {
@@ -701,14 +734,13 @@ align-items: center;
 
 
 #typed-content {
-font-size: 3vw;
+font-size: 4vw;
 color: #1f1e1e;
-
 }
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-
 @font-face {
 font-family: 'gothammedium';
 src: url('/fontsfami/GothamRoundedMedium_21022.ttf') format('woff');
@@ -742,164 +774,169 @@ margin: 0;
 padding: 0;
 }
 
+.color-change {
+transition: background-color 0.5s ease;
+}
 
-    h1 {
-        color: rgb(60, 164, 255);
-        font-size: 2vw;
-    }
-
-
-    .button-box {
-        display: flex;
-        justify-content: center;
-    }
-
-    section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .btn {
-        position: relative;
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        border-radius: 20px;
-        font-size: 0.8em;
-        cursor: pointer;
-    }
-
-    form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20vw 0vw 22vw;
-    }
-
-    small {
-        color: rgb(93, 177, 251);
-        padding: 0;
-    }
-
-    label {
-        margin-bottom: 2vh;
-        font-weight: bold;
-    }
-
-    input,
-    textarea {
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        width: 50%;
-        box-sizing: border-box;
-    }
-
-    input[type="submit"] {
-        background-color: #4CAF50;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        padding: 10px 20px;
-        cursor: pointer;
-    }
-
-    input[type="submit"]:hover {
-        background-color: #3e8e41;
-    }
-
-    nav ul {
-        list-style-type: none;
-
-    }
-
-    footer ul {
-        list-style: none;
-        text-decoration: none;
-        padding: 0;
-    }
-
-    footer ul li .cc {
-        padding: 0px 20px;
-    }
-
-    footer ul li .docs {
-        padding: 0px 20px 0px 20px;
-    }
-
-    .links {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .links ul {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        text-decoration: none;
-        list-style: none;
-    }
-
-    .links ul img {
-        width: 2vw;
-        margin: 10px 20px;
-    }
-
-
-    .cc ul li h2 {
-        color: rgb(60, 164, 255);
-        font-size: 1.8em;
-        margin: 0;
-
-    }
-
-    .cc ul {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .cc ul a,
-    .cc ul p {
-        text-decoration: none;
-        color: #1f1e1e;
-        margin: 0;
-    }
+.color-change:hover {
+background-color: #ffc400;
+color: #FFF;
+}
 
 
 
-    .docs ul {
-        display: flex;
-        justify-content: space-between;
-        margin: 0
-    }
-
-    .docs ul a {
-        text-decoration: none;
-        color: #1f1e1e;
-        margin: 0;
-        font-size: 0.5em;
-
-    }
+h1 {
+color: rgb(60, 164, 255);
+font-size: 2vw;
+}
 
 
+.button-box {
+display: flex;
+justify-content: center;
+}
 
-    .typing-container-terms,
-    .typing-container-privacy,
-    .typing-container {
-        width: 90%;
-        height: 80vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.btn {
+position: relative;
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 20px;
+font-size: 0.8em;
+cursor: pointer;
+}
+
+.arrowdown {
+border: solid black;
+border-width: 0 3px 3px 0;
+display: inline-block;
+padding: 3px;
+transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
 
 
-    #typed-content {
-        font-size: 2vw;
-        color: #1f1e1e;
-    }
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 25vw 0vw 15vw;
+}
+
+small {
+color: rgb(93, 177, 251);
+padding: 0;
+}
+
+label {
+margin-bottom: 2vh;
+font-weight: bold;
+}
+
+input,
+textarea {
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 50%;
+box-sizing: border-box;
+}
+
+input[type="submit"] {
+background-color: #388af5;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #ffc400;
+}
+
+nav ul {
+list-style-type: none;
+
+}
+
+footer ul {
+list-style: none;
+text-decoration: none;
+padding: 0;
+}
+
+.cc {
+padding: 0px 20px 0px 20px;
+}
+
+footer ul li .docs {
+padding: 0px 20px 0px 20px;
+}
+
+
+
+
+.cc ul li h2 {
+color: rgb(60, 164, 255);
+font-size: 1.8em;
+margin: 0;
+
+}
+
+.cc ul {
+display: flex;
+flex-direction: column-reverse;
+}
+
+.cc ul a,
+.cc ul p {
+text-decoration: none;
+color: #1f1e1e;
+margin: 0;
+}
+
+
+
+.docs ul {
+display: flex;
+justify-content: space-between;
+margin: 0
+}
+
+.docs ul a {
+text-decoration: none;
+color: #1f1e1e;
+margin: 0;
+font-size: 0.5em;
+
+}
+
+
+
+.typing-container-terms,
+.typing-container-privacy,
+.typing-container {
+width: 90%;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#typed-content {
+font-size: 2vw;
+color: #1f1e1e;
+}
 
 }
 

@@ -1,12 +1,12 @@
 function setData()
 {    
 const txt = `
-Hi,<np>
+Hi,  <np>
 <np>
-I'm Relation AI your new Sales Development Representative. <np>
-My main role is to help generate and qualify leads for your sales team. <np>
+I'm Nuvolo your new Sales Development Representative. <np>
+My main role as an AI is to help generate and qualify leads for your sales team. <np>
 With my assistance, you can streamline your sales process and increase revenue.<np>
-#codeCandy Studio`;
+#nuvoloAI`;
 const outputDiv = document.getElementById('typed-content');
 return [txt, outputDiv]
 };
