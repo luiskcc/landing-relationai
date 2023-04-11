@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 389px) {
 
 @font-face {
 font-family: 'gothammedium';
@@ -64,13 +64,13 @@ form {
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 50vw 0vw 80vw;
+padding: 46.8vw 0vw 10vw;
 }
 
 small{
-padding: 5vw 10vw;
-/* font-size: 4vw; */
-color: rgb(93, 177, 251);
+padding: 2vw 10vw;
+font-size: 3vw; 
+color: rgb(38, 37, 37);
 }
 
 label {
@@ -112,7 +112,7 @@ text-decoration: none;
 padding: 0;
 }
 
-footer ul li .cc {
+.cc {
 padding: 0px 20px;
 }
 
@@ -123,7 +123,7 @@ padding: 0px 20px 0px 20px;
 
 .cc ul li h2 {
 color: rgb(60, 164, 255);
-font-size: 1.8em;
+font-size: 1em;
 margin: 0;
 
 }
@@ -241,7 +241,7 @@ form {
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 50vw 0vw 80vw;
+padding: 25vw 0vw 40vw;
 }
 
 small {
