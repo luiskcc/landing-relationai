@@ -100,7 +100,6 @@ padding: 0px 20px 0px 20px;
 }
 
 
-
 .cc ul li h2 {
 color: rgb(60, 164, 255);
 font-size: 1.8em;
@@ -819,6 +818,15 @@ margin: 0;
 padding: 0;
 }
 
+.color-change {
+    transition: background-color 0.5s ease;
+}
+
+.color-change:hover {
+    background-color: #ffc400;
+    color: #FFF;
+}
+
 
 
 h1 {
@@ -853,7 +861,7 @@ form {
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 20vw 0vw 17vw;
+padding: 25vw 0vw 15vw;
 }
 
 small {

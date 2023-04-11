@@ -1,8 +1,8 @@
 function setData()
         {    
         const txt = `
-      Agreement to Terms
-By using Relation AI, you agree to comply with these terms and conditions. If you do not agree with these terms, you should not use the tool.
+Agreement to Terms
+By using Relation AI, you agree to comply with these terms and conditions. If you do not agree with these terms, you should not use the tool.</np>
 
 Use of Relation AI
 Relation AI is a software designed to assist sales teams in their daily work. You may use the tool for this purpose only. You may not use the tool for any illegal or unauthorized purposes.</np>
@@ -74,6 +74,6 @@ if (currentPara === splittedTxt.length) {
 clearInterval(timerId);
 }
 }
-},65);
+},100);
 
 
