@@ -60,11 +60,16 @@ font-size: 0.5em;
 cursor: pointer;
 }
 
+#section-2 {
+padding: 33vw 0vw 0vw;
+}
+
 form {
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 70vw 0vw 30vw;
+padding-bottom: 30vw;
+
 }
 
 form h1{
@@ -245,11 +250,16 @@ font-size: 0.5em;
 cursor: pointer;
 }
 
+#section-2 {
+padding: 80vw 0vw 0vw;
+}
+
 form {
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 70vw 0vw 30vw;
+padding-bottom: 30vw;
+
 }
 
 form h1 {
