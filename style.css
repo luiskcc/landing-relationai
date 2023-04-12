@@ -828,16 +828,26 @@ display: inline-block;
 padding: 3px;
 transform: rotate(45deg);
 -webkit-transform: rotate(45deg);
+}
 
 
+#section-2 {
+padding: 13vw 0vw 0vw;
+
+}
+
+form h1 {
+color: rgb(37, 37, 37);
+font-size: 2.5vw;
 }
 
 form {
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 25vw 0vw 15vw;
+padding-bottom: 8vw;
 }
+
 
 small {
 color: rgb(93, 177, 251);
@@ -876,6 +886,10 @@ list-style-type: none;
 
 }
 
+footer {
+padding-top: 5vw;
+}
+
 footer ul {
 list-style: none;
 text-decoration: none;
@@ -890,13 +904,14 @@ footer ul li .docs {
 padding: 0px 20px 0px 20px;
 }
 
-
-
-
 .cc ul li h2 {
 color: rgb(60, 164, 255);
-font-size: 1.8em;
+font-size: 1em;
 margin: 0;
+}
+
+.cc ul li p {
+font-size: 0.5em;
 
 }
 
@@ -924,7 +939,7 @@ margin: 0
 text-decoration: none;
 color: #1f1e1e;
 margin: 0;
-font-size: 0.5em;
+font-size: 0.3em;
 
 }
 
@@ -1022,21 +1037,32 @@ cursor: pointer;
 }
 
 .arrowdown {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+border: solid black;
+border-width: 0 3px 3px 0;
+display: inline-block;
+padding: 3px;
+transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+}
 
+
+#section-2{
+    padding: 13vw 0vw 0vw;
 
 }
+
+form h1{
+color: rgb(37, 37, 37);
+font-size: 2.5vw;
+}
+
 form {
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 25vw 0vw 15vw;
+padding-bottom: 8vw;
 }
+
 
 small {
 color: rgb(93, 177, 251);
@@ -1075,6 +1101,10 @@ list-style-type: none;
 
 }
 
+footer{
+    padding-top: 5vw;
+}
+
 footer ul {
 list-style: none;
 text-decoration: none;
@@ -1089,13 +1119,14 @@ footer ul li .docs {
 padding: 0px 20px 0px 20px;
 }
 
-
-
-
 .cc ul li h2 {
 color: rgb(60, 164, 255);
-font-size: 1.8em;
+font-size: 1em;
 margin: 0;
+}
+
+.cc ul li p {
+font-size: 0.5em;
 
 }
 
@@ -1123,7 +1154,7 @@ margin: 0
 text-decoration: none;
 color: #1f1e1e;
 margin: 0;
-font-size: 0.5em;
+font-size: 0.3em;
 
 }
 
