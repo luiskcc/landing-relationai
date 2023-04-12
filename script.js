@@ -3,10 +3,10 @@ function setData()
 const txt = `
 Hi,  <np>
 <np>
-I'm Nuvolo your new Sales Development Representative. <np>
+I'm Salesally your new Sales Development Representative. <np>
 My main role as an AI is to help generate and qualify leads for your sales team. <np>
 With my assistance, you can streamline your sales process and increase revenue.<np>
-#nuvoloAI`;
+#salesallyAI`;
 const outputDiv = document.getElementById('typed-content');
 return [txt, outputDiv]
 };
