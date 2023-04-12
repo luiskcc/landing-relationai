@@ -1057,7 +1057,7 @@ transform: rotate(45deg);
 
 
 #section-2{
-    padding: 13vw 0vw 0vw;
+padding: 14vw 0vw 0vw 0vw;
 
 }
 
@@ -1112,7 +1112,7 @@ list-style-type: none;
 }
 
 footer{
-    padding-top: 5vw;
+padding-top: 4vw;
 }
 
 footer ul {
